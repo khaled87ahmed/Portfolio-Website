@@ -1,0 +1,324 @@
+nav.backgroundnav{
+background-color: white;    
+}
+
+nav .button{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+nav .line{
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    background-color: black;
+    transition: 0.5s;
+}
+nav .nav-item :hover .line{
+    width: 80%;
+}
+
+@keyframes typing{
+    0% {width: 29%;}
+    25% {width: 100%;}
+    50% {width: 29%;}
+    75% {width: 100%;}
+    100% {width: 29%;}
+}
+
+.home {
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.home .layer{
+    background-color: rgba(0, 0, 0, 0.549);
+}
+
+.home h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.home h2{
+    font-size: 50px;
+    width: 29%;
+    overflow: hidden;
+    border-right: solid white 4px ;
+    animation: typing 6s infinite;
+}
+
+.home h3{
+    font-size: 50px;
+    width: 500px;
+    height: 200px;
+}
+
+
+.home .icons{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+}
+
+.home .icons{
+    cursor: pointer;
+}
+
+.about .box{
+    margin-top: 5%;
+}
+
+.about h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about h3{
+    color: #999e9f;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.about p{
+    color: #768384;
+    font-size: 15px;
+}
+
+.about span{
+    color: #768384;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.about .bar{
+    height: 5%;
+    background-color: #efefef;
+}
+
+.about .bar .layer1{
+    width: 95%;
+    background-color: black;
+
+}
+.about .bar .layer2{
+    width: 80%;
+    background-color: black;
+
+}
+.about .bar .layer3{
+    width: 90%;
+    background-color: black;
+
+}
+
+.about .bar  h5{
+    font-size: 14px;
+    color: white;
+}
+
+.about .bar  h6{
+    font-size: 12px;
+    color: white;
+}
+
+.about .but{
+    width: 28%;
+    height: 11%;
+}
+
+.services{
+    background-color: #F7F7F7;
+    width: 100%;
+}
+
+.services h1 , .portfolio h1 , .client h1 , .blog h1 ,.contact h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    width: fit-content;
+}
+
+.services .icon{
+    font-size: 25px;
+    margin-top: 15%;
+    height: 70px;
+    width: 70px;
+    background-color: #F7F7F7 ;
+    transition: 0.5s;
+}
+
+
+
+.services .box h1{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.services .box:hover .icon{
+    background-color: black;
+    color: white;
+}
+
+#pills-tab{
+    width: fit-content;
+}
+
+.portfolio img{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .box{
+    
+}
+
+.portfolio .layer{
+
+    background-color: white;
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    top: 150%;
+    right: 2%;
+    transition: 0.5s;
+
+}
+
+.box:hover .layer{
+    top: 2%;
+}
+
+.layer .icon{
+    width: 40px;
+    height: 40px ;
+}
+
+.client{
+    background-color: #f7f7f7;
+}
+
+.next{
+    background-color: black;
+    color: black;
+}
+
+.client .circle{
+    width: 100px;
+    height: 100px;
+    background-color: #768384;
+}
+
+.client .portfolio{
+    color: #748182;
+}
+
+.client p , .client h6{
+    color: #748182;
+}
+
+.client h6{
+    font-size: 12px;
+    margin-bottom: 10%;
+}
+
+.count h1{
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.count h6{
+    color: #748182;
+    font-weight: 700;
+}
+
+.blog{
+    background-color: #f7f7f7;
+}
+
+.blog h6{
+    cursor: pointer;
+    color: #748182;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 5% 0 5% 0;
+}
+
+.blog h3{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.blog .box{
+    background-color: white;
+    margin-bottom: 10%;
+}
+
+.blog img{
+    transition: 0.5s;
+}
+
+.blog .box:hover img{
+    scale: 1.1;
+}
+
+.contact .box {
+    width: 50px;
+    height: 50px;
+    background-color: #f4f4f4;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.contact h5 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.contact h6 {
+    color: #748182;
+}
+
+.coll:hover .box{
+    background-color: black;
+    color: white;
+}
+
+textarea{
+    height: 150px;
+
+}
+
+.contact .sub{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8%;
+    margin-bottom: 100px;
+    transition: 0.5s;
+}
+
+.contact .sub:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.copywrites{
+    height: 100px;
+    color: #748182;
+    font-size: small;
+    background-color: black;
+}
+
+
